@@ -5,7 +5,7 @@ from colorama import Fore, Style
 from .help import help_command
 
 
-command_list = ["create", "delete", "update", "find", "preview", "exit", "help", "clear"]
+command_list = ["create", "delete", "update", "find", "exit", "help"]
 
 command_requirements = {
     "create": 5,
